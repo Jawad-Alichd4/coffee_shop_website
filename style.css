@@ -164,9 +164,9 @@ color: rgb(49, 15, 15);
     margin-top: 30px;
 }
 .imagescard2 div{
-    background-color: rgb(77, 16, 16);
+    background-color: rgb(119, 64, 64);
     color: wheat;
-    height: 200px;
+    height: 250px;
     width: 200px;
     align-items: center;
     padding-left: 70px;
@@ -180,13 +180,83 @@ color: rgb(49, 15, 15);
     
 .imagescard2 img{
     width: 120px;
-    height: 120px;
+    height: 150px;
     position: relative;
     top: -30px;
 }
 
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.495) rgba(0, 0, 0, 0.495)), url(./Coffee_Beans_Footer1.png);
+    background-size: cover;
+    display: flex;
+    margin-top: 15px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    color: wheat;
+}
+footer ul{
+    margin-bottom: 20px;
+}
+footer h4{
+    margin-bottom: 20px;
+}
+footer ul li{
+    list-style-type: none;
+    color: white;
+    padding-top: 5px;
+}
+footer a img{
+width: 20px;
+padding: 5px;
+border-radius: 5px;
+background-color: white;
+}
 
 /* for small screen 1000px */
-@media (max-width 1000px){
+@media (max-width:1000px){
+  #logo img{
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+  }
+  .ancor-tag{
+    padding-right: 50px;
+  }
+  .ancor-tag a{
+    padding: 10px 10px;
+  }
 
+}
+
+/* for tabs */
+@media(max-width: 780px) {
+    #logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .ancor-tag{
+        font-size: 2.7vmin;
+        padding: 5px;
+    }
+}
+
+/* for mobile phones */
+@media(max-width: 420px) {
+    #logo img{
+        height: 50px;
+        width: 50px;
+        padding-left: 10px;
+    }
+    .ancor-tag{
+        padding-right: 10px;
+        margin-top: 5px;
+
+    }
+    .ancor-tag a{
+        padding: 5px;
+        font-size: 1.6vmin;
+    }
+    #imagescard2{
+        margin-left: 20px;
+    }
 }
